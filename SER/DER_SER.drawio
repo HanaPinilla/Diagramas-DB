@@ -402,7 +402,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GnPtLD30NpM4-NVhq4MH-139" value="segundo_nombre varchar(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="GnPtLD30NpM4-NVhq4MH-137" vertex="1">
+        <mxCell id="GnPtLD30NpM4-NVhq4MH-139" value="segundo_nombre varchar(50) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="GnPtLD30NpM4-NVhq4MH-137" vertex="1">
           <mxGeometry x="30" width="240" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -428,7 +428,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M2zRqza5KtS5Y8vELdM3-657" value="segundo_apellido varchar(30) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-655" vertex="1">
+        <mxCell id="M2zRqza5KtS5Y8vELdM3-657" value="segundo_apellido varchar(30) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-655" vertex="1">
           <mxGeometry x="30" width="240" height="30" as="geometry">
             <mxRectangle width="240" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1148,7 +1148,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FYb47SNIoVnRCICLVKOR-46" value="observaciones varchar(400) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="FYb47SNIoVnRCICLVKOR-44" vertex="1">
+        <mxCell id="FYb47SNIoVnRCICLVKOR-46" value="observaciones varchar(400) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="FYb47SNIoVnRCICLVKOR-44" vertex="1">
           <mxGeometry x="50" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2280,7 +2280,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M2zRqza5KtS5Y8vELdM3-268" value="observaciones varchar(800) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-266" vertex="1">
+        <mxCell id="M2zRqza5KtS5Y8vELdM3-268" value="observaciones varchar(800) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-266" vertex="1">
           <mxGeometry x="50" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2293,7 +2293,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M2zRqza5KtS5Y8vELdM3-271" value="control_ingreso varchar(800) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-269" vertex="1">
+        <mxCell id="M2zRqza5KtS5Y8vELdM3-271" value="control_ingreso varchar(800) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-269" vertex="1">
           <mxGeometry x="50" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2306,7 +2306,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M2zRqza5KtS5Y8vELdM3-315" value="tecnicas_seguridad varchar(800) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-313" vertex="1">
+        <mxCell id="M2zRqza5KtS5Y8vELdM3-315" value="tecnicas_seguridad varchar(800) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-313" vertex="1">
           <mxGeometry x="50" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2319,7 +2319,7 @@
             <mxRectangle width="50" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M2zRqza5KtS5Y8vELdM3-331" value="puntos_apoyo varchar(800) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-329" vertex="1">
+        <mxCell id="M2zRqza5KtS5Y8vELdM3-331" value="puntos_apoyo varchar(800) NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="M2zRqza5KtS5Y8vELdM3-329" vertex="1">
           <mxGeometry x="50" width="290" height="30" as="geometry">
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
