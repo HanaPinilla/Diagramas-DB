@@ -448,8 +448,8 @@
             <mxPoint x="1915" y="650" as="sourcePoint" />
             <mxPoint x="1935" y="570" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1890" y="595" />
-              <mxPoint x="1890" y="905" />
+              <mxPoint x="1850" y="595" />
+              <mxPoint x="1850" y="905" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -859,7 +859,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XSm5TUzRd28CnGE83Iqk-131" value="eco_bas_rolreunion" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="2330" y="920" width="290" height="90" as="geometry" />
+          <mxGeometry x="2400" y="1070" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="XSm5TUzRd28CnGE83Iqk-132" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="XSm5TUzRd28CnGE83Iqk-131" vertex="1">
           <mxGeometry y="30" width="290" height="30" as="geometry" />
@@ -892,7 +892,7 @@
             <mxPoint x="2240" y="840.04" as="sourcePoint" />
             <mxPoint x="2260" y="1100.04" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2310" y="965" />
+              <mxPoint x="2310" y="1115" />
               <mxPoint x="2310" y="965" />
             </Array>
           </mxGeometry>
@@ -924,7 +924,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XSm5TUzRd28CnGE83Iqk-154" value="eco_cerrem_voto" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="2355" y="1110" width="330" height="150" as="geometry" />
+          <mxGeometry x="2410" y="840" width="330" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XSm5TUzRd28CnGE83Iqk-155" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="XSm5TUzRd28CnGE83Iqk-154" vertex="1">
           <mxGeometry y="30" width="330" height="30" as="geometry" />
@@ -984,7 +984,7 @@
             <mxPoint x="2205" y="1250" as="targetPoint" />
             <Array as="points">
               <mxPoint x="2290" y="875" />
-              <mxPoint x="2290" y="1185" />
+              <mxPoint x="2290" y="915" />
             </Array>
           </mxGeometry>
         </mxCell>
