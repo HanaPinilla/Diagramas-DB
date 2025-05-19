@@ -37,25 +37,13 @@
         <mxCell id="-sTfq_-YhvA8usg72Ecp-32" value="&lt;div&gt;eco_reg_estadoregistro&lt;/div&gt;&lt;div&gt;eco_reg_radicado&lt;/div&gt;&lt;div&gt;eco_reg_registro&lt;/div&gt;&lt;div&gt;eco_reg_trazabilidad&lt;br&gt;&lt;/div&gt;&lt;div&gt;eco_reg_rllamadas&lt;/div&gt;&lt;div&gt;eco_reg_infollamada&lt;/div&gt;&lt;div&gt;eco_reg_fhllamada&lt;/div&gt;&lt;div&gt;eco_reg_mcllamada&lt;/div&gt;&lt;div&gt;eco_reg_otromedio&lt;/div&gt;&lt;div&gt;eco_reg_tllamada&lt;/div&gt;&lt;div&gt;eco_reg_ellamada&lt;/div&gt;&lt;div&gt;eco_reg_ullamada&lt;/div&gt;&lt;div&gt;eco_reg_otraubicacion&lt;/div&gt;&lt;div&gt;eco_reg_mtelcontacto&lt;/div&gt;&lt;div&gt;eco_reg_mvirtual&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="-sTfq_-YhvA8usg72Ecp-29" vertex="1">
           <mxGeometry x="50" y="80" width="230" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-33" value="eco_usr_basicosusuario&lt;div&gt;eco_usr_asesorpoblacional&lt;/div&gt;&lt;div&gt;eco_usr_ccelectronico&lt;/div&gt;&lt;div&gt;eco_usr_complementariosusuario&lt;/div&gt;&lt;div&gt;eco_usr_contacto&lt;/div&gt;&lt;div&gt;eco_usr_ctelefono&lt;/div&gt;&lt;div&gt;eco_usr_datoscontrato&lt;/div&gt;&lt;div&gt;eco_usr_datosresolucion&lt;/div&gt;&lt;div&gt;eco_usr_direccionrural&lt;/div&gt;&lt;div&gt;eco_usr_direccionurbana&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="-sTfq_-YhvA8usg72Ecp-29" vertex="1">
-          <mxGeometry x="310" y="80" width="230" height="290" as="geometry" />
-        </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-34" value="slot_Bidireccional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-29" vertex="1">
           <mxGeometry x="130" y="80" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-35" value="slot_Unidireccional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-29" vertex="1">
-          <mxGeometry x="395" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-40" value="" style="endArrow=none;html=1;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="85" y="109" as="sourcePoint" />
             <mxPoint x="235" y="109" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-41" value="" style="endArrow=none;html=1;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-29" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="110" as="sourcePoint" />
-            <mxPoint x="500" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-46" value="" style="group" parent="1" vertex="1" connectable="0">
@@ -70,25 +58,13 @@
         <mxCell id="-sTfq_-YhvA8usg72Ecp-7" value="&lt;div&gt;eco_reg_estadoregistro&lt;/div&gt;&lt;div&gt;eco_reg_radicado&lt;/div&gt;&lt;div&gt;eco_reg_registro&lt;/div&gt;&lt;div&gt;eco_reg_trazabilidad&lt;br&gt;&lt;/div&gt;&lt;div&gt;eco_reg_rllamadas&lt;/div&gt;&lt;div&gt;eco_reg_infollamada&lt;/div&gt;&lt;div&gt;eco_reg_fhllamada&lt;/div&gt;&lt;div&gt;eco_reg_mcllamada&lt;/div&gt;&lt;div&gt;eco_reg_otromedio&lt;/div&gt;&lt;div&gt;eco_reg_tllamada&lt;/div&gt;&lt;div&gt;eco_reg_ellamada&lt;/div&gt;&lt;div&gt;eco_reg_ullamada&lt;/div&gt;&lt;div&gt;eco_reg_otraubicacion&lt;/div&gt;&lt;div&gt;eco_reg_mtelcontacto&lt;/div&gt;&lt;div&gt;eco_reg_mvirtual&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="-sTfq_-YhvA8usg72Ecp-46" vertex="1">
           <mxGeometry x="50" y="80" width="230" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-12" value="eco_usr_basicosusuario&lt;div&gt;eco_usr_asesorpoblacional&lt;/div&gt;&lt;div&gt;eco_usr_ccelectronico&lt;/div&gt;&lt;div&gt;eco_usr_complementariosusuario&lt;/div&gt;&lt;div&gt;eco_usr_contacto&lt;/div&gt;&lt;div&gt;eco_usr_ctelefono&lt;/div&gt;&lt;div&gt;eco_usr_datoscontrato&lt;/div&gt;&lt;div&gt;eco_usr_datosresolucion&lt;/div&gt;&lt;div&gt;eco_usr_direccionrural&lt;/div&gt;&lt;div&gt;eco_usr_direccionurbana&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="-sTfq_-YhvA8usg72Ecp-46" vertex="1">
-          <mxGeometry x="310" y="80" width="230" height="290" as="geometry" />
-        </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-13" value="Slot_Bidireccional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-46" vertex="1">
           <mxGeometry x="130" y="80" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-14" value="Slot_Unidireccional" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-46" vertex="1">
-          <mxGeometry x="395" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-36" value="" style="endArrow=none;html=1;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="90" y="109" as="sourcePoint" />
             <mxPoint x="240" y="109" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-37" value="" style="endArrow=none;html=1;rounded=0;" parent="-sTfq_-YhvA8usg72Ecp-46" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="350" y="109" as="sourcePoint" />
-            <mxPoint x="500" y="109" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-49" value="UNP_AUX" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -103,9 +79,9 @@
         <mxCell id="-sTfq_-YhvA8usg72Ecp-52" value="AUTH_AUX" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1185" y="1020" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-54" value="" style="endArrow=none;html=1;rounded=0;endFill=1;startFill=1;startArrow=block;" parent="1" source="-sTfq_-YhvA8usg72Ecp-12" target="-sTfq_-YhvA8usg72Ecp-25" edge="1">
+        <mxCell id="-sTfq_-YhvA8usg72Ecp-54" value="" style="endArrow=none;html=1;rounded=0;endFill=1;startFill=1;startArrow=block;" parent="1" source="-sTfq_-YhvA8usg72Ecp-51" target="-sTfq_-YhvA8usg72Ecp-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="800" y="420" as="sourcePoint" />
+            <mxPoint x="810" y="712.909090909091" as="sourcePoint" />
             <mxPoint x="850" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -133,12 +109,6 @@
             <mxPoint x="380" y="1030" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-sTfq_-YhvA8usg72Ecp-61" value="" style="endArrow=none;html=1;rounded=0;endFill=1;startFill=1;startArrow=block;" parent="1" source="-sTfq_-YhvA8usg72Ecp-50" target="-sTfq_-YhvA8usg72Ecp-33" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="947" y="1840" as="sourcePoint" />
-            <mxPoint x="880" y="1640" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-sTfq_-YhvA8usg72Ecp-62" value="" style="endArrow=block;html=1;rounded=0;startArrow=block;startFill=1;endFill=1;" parent="1" source="-sTfq_-YhvA8usg72Ecp-50" target="-sTfq_-YhvA8usg72Ecp-32" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="350" y="1920" as="sourcePoint" />
@@ -151,9 +121,9 @@
             <mxPoint x="812" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vz7aEOK7TQxu1i3zODMW-1" value="" style="endArrow=none;html=1;rounded=0;endFill=1;startFill=1;startArrow=block;" edge="1" parent="1" source="-sTfq_-YhvA8usg72Ecp-33" target="-sTfq_-YhvA8usg72Ecp-25">
+        <mxCell id="Vz7aEOK7TQxu1i3zODMW-1" value="" style="endArrow=none;html=1;rounded=0;endFill=1;startFill=1;startArrow=block;" edge="1" parent="1" source="-sTfq_-YhvA8usg72Ecp-50" target="-sTfq_-YhvA8usg72Ecp-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="785" as="sourcePoint" />
+            <mxPoint x="797.2435897435898" y="1340" as="sourcePoint" />
             <mxPoint x="1252" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
