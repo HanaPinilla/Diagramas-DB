@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 OPR/120.0.0.0" version="28.2.0">
+  <diagram name="Página-1" id="467_3pukhqVl5s4gsWym">
+    <mxGraphModel dx="766" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="6000" pageHeight="5300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="4j-10TC9_fVrQ71cYKYM-53" target="4j-10TC9_fVrQ71cYKYM-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="614" as="sourcePoint" />
+            <mxPoint x="490" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;" parent="1" source="4j-10TC9_fVrQ71cYKYM-61" target="4j-10TC9_fVrQ71cYKYM-57" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="614" as="sourcePoint" />
+            <mxPoint x="560" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="640" />
+              <mxPoint x="630" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="4j-10TC9_fVrQ71cYKYM-61" target="4j-10TC9_fVrQ71cYKYM-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="562" as="sourcePoint" />
+            <mxPoint x="889.9999999999998" y="553.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="480" />
+              <mxPoint x="850" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERoneToMany;endFill=0;startArrow=ERone;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="4j-10TC9_fVrQ71cYKYM-53" target="4j-10TC9_fVrQ71cYKYM-61" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="562" as="sourcePoint" />
+            <mxPoint x="640" y="562" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="489" />
+              <mxPoint x="600" y="377" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-53" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Album&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="340" width="160" height="298" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-54" value="&lt;div&gt;+ titulo: string&lt;/div&gt;&lt;div&gt;+ nombreArtistico: string&lt;/div&gt;&lt;div&gt;+ paisGrabacion: string&lt;/div&gt;&lt;div&gt;+ anioPublicacion: int&lt;/div&gt;&lt;div&gt;+ coverArt: string&lt;/div&gt;&lt;div&gt;+ fotografia: string&lt;/div&gt;&lt;div&gt;+ editora: string&lt;/div&gt;&lt;div&gt;+ estudioGrabacion: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-53" vertex="1">
+          <mxGeometry y="26" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-55" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4j-10TC9_fVrQ71cYKYM-53" vertex="1">
+          <mxGeometry y="148" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-56" value="&lt;div&gt;+ toCSV(): string&lt;/div&gt;&lt;div&gt;+ Album(string titulo, string nombreArtistico, string paisGrabacion, int anioPublicacion, string coverArt, string fotografia, string editora, string estudioGrabacion)&lt;/div&gt;&lt;div&gt;+ Album()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-53" vertex="1">
+          <mxGeometry y="156" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-57" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Link&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="730" width="160" height="158" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-58" value="&lt;div&gt;+ nombrePlataforma: string&lt;/div&gt;&lt;div&gt;+ link: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-57" vertex="1">
+          <mxGeometry y="26" width="160" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4j-10TC9_fVrQ71cYKYM-57" vertex="1">
+          <mxGeometry y="68" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-60" value="&lt;div&gt;+ toCSV(): string&lt;/div&gt;&lt;div&gt;+ Link(string nombrePlataforma, string link)&lt;/div&gt;&lt;div&gt;+ Link()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-57" vertex="1">
+          <mxGeometry y="76" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-61" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Cancion&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="635" y="162" width="170" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-62" value="&lt;div&gt;+ nombreArtistico: string&lt;/div&gt;&lt;div&gt;+ nombreCancion: string&lt;/div&gt;&lt;div&gt;+ duracion: string&lt;/div&gt;&lt;div&gt;+ numArtistasPrincipales: int&lt;/div&gt;&lt;div&gt;+ compositorLetra: string&lt;/div&gt;&lt;div&gt;+ compositorMusica: string&lt;/div&gt;&lt;div&gt;+ arreglosMusicales: string&lt;/div&gt;&lt;div&gt;+ ciudadGrabacion: string&lt;/div&gt;&lt;div&gt;+ paisGrabacion: string&lt;/div&gt;&lt;div&gt;+ anioPrimeraPublicacion: int&lt;/div&gt;&lt;div&gt;+ genero: string&lt;/div&gt;&lt;div&gt;+ cantPlataformas: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-61" vertex="1">
+          <mxGeometry y="26" width="170" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-63" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4j-10TC9_fVrQ71cYKYM-61" vertex="1">
+          <mxGeometry y="210" width="170" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-64" value="&lt;div&gt;+ toCSV(): string&lt;/div&gt;&lt;div&gt;+ Cancion(string nombreArtistico, string nombreCancion, string duracion, int numArtistasPrincipales,string compositorLetra, string compositorMusica, string arreglosMusicales, string ciudadGrabacion, string paisGrabacion, int anioPrimeraPublicacion, string genero)&lt;/div&gt;&lt;div&gt;+ Cancion()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-61" vertex="1">
+          <mxGeometry y="218" width="170" height="212" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-65" value="«interface»&lt;br&gt;&lt;b&gt;FormatearCSV&lt;/b&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="885" y="720" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;dashed=1;dashPattern=8 8;" parent="1" source="4j-10TC9_fVrQ71cYKYM-66" target="4j-10TC9_fVrQ71cYKYM-65" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-66" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Version&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="320" width="160" height="288" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-67" value="&lt;div&gt;+ tituloVersion: string&lt;/div&gt;&lt;div&gt;+ tipoVersion: string&lt;/div&gt;&lt;div&gt;+ artistaPrincipal: string&lt;/div&gt;&lt;div&gt;+ ciudadGrabacion: string&lt;/div&gt;&lt;div&gt;+ paisGrabacion: string&lt;/div&gt;&lt;div&gt;+ genero: string&lt;/div&gt;&lt;div&gt;+ anioPublicacion: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-66" vertex="1">
+          <mxGeometry y="26" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-68" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4j-10TC9_fVrQ71cYKYM-66" vertex="1">
+          <mxGeometry y="138" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-69" value="&lt;div&gt;+ toCSV(): string&lt;/div&gt;&lt;div&gt;+ Version(string tituloVersion, string tipoVersion, string artistaPrincipal, string ciudadGrabacion, string paisGrabacion, string genero, int anioPublicacion)&lt;/div&gt;&lt;div&gt;+ Version()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-66" vertex="1">
+          <mxGeometry y="146" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;dashed=1;dashPattern=8 8;" parent="1" source="4j-10TC9_fVrQ71cYKYM-61" target="4j-10TC9_fVrQ71cYKYM-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="606" as="sourcePoint" />
+            <mxPoint x="950" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="750" y="650" />
+              <mxPoint x="940" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;dashed=1;dashPattern=8 8;" parent="1" source="4j-10TC9_fVrQ71cYKYM-53" target="4j-10TC9_fVrQ71cYKYM-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="763" as="sourcePoint" />
+            <mxPoint x="895" y="755" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="650" />
+              <mxPoint x="940" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;dashed=1;dashPattern=8 8;" parent="1" source="4j-10TC9_fVrQ71cYKYM-57" target="4j-10TC9_fVrQ71cYKYM-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="755" as="sourcePoint" />
+            <mxPoint x="895" y="755" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="790" />
+              <mxPoint x="790" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-79" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Artista&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="885" y="100" width="160" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-80" value="&lt;div&gt;+ nombreReal: string&lt;/div&gt;&lt;div&gt;+ nombreArtistico: string&lt;/div&gt;&lt;div&gt;+ paisOrigen: string&lt;/div&gt;&lt;div&gt;+ instrumento: string&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-79" vertex="1">
+          <mxGeometry y="26" width="160" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="4j-10TC9_fVrQ71cYKYM-79" vertex="1">
+          <mxGeometry y="98" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-82" value="&lt;div&gt;+ toCSV(): string&lt;/div&gt;&lt;div&gt;+ Artista(string nombreReal, string nombreArtistico, string paisOrigen, string instrumento)&lt;/div&gt;&lt;div&gt;+ Artista()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="4j-10TC9_fVrQ71cYKYM-79" vertex="1">
+          <mxGeometry y="106" width="160" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-83" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERone;startFill=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="4j-10TC9_fVrQ71cYKYM-61" target="4j-10TC9_fVrQ71cYKYM-79" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="563" as="sourcePoint" />
+            <mxPoint x="870" y="563" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="480" />
+              <mxPoint x="830" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4j-10TC9_fVrQ71cYKYM-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;endSize=12;dashed=1;dashPattern=8 8;" parent="1" source="4j-10TC9_fVrQ71cYKYM-79" target="4j-10TC9_fVrQ71cYKYM-65" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1100" y="470" as="sourcePoint" />
+            <mxPoint x="1100" y="594" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="202" />
+              <mxPoint x="1080" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
