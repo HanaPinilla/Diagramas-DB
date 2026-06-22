@@ -3800,7 +3800,7 @@
             <mxRectangle height="30" width="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4RJkn6RpUIqJbaM18nG-1053" parent="T4RJkn6RpUIqJbaM18nG-1051" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" value="descripcion_metodologia varchar(700) NOT NULL" vertex="1">
+        <mxCell id="T4RJkn6RpUIqJbaM18nG-1053" parent="T4RJkn6RpUIqJbaM18nG-1051" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" value="descripcion varchar(700) NOT NULL" vertex="1">
           <mxGeometry height="30" width="280" x="30" as="geometry">
             <mxRectangle height="30" width="280" as="alternateBounds" />
           </mxGeometry>
@@ -3968,7 +3968,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T4RJkn6RpUIqJbaM18nG-1094" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" value="eco_bas_tendencia" vertex="1">
-          <mxGeometry height="90" width="265" x="1640" y="2820" as="geometry" />
+          <mxGeometry height="90" width="265" x="1740" y="2870" as="geometry" />
         </mxCell>
         <mxCell id="T4RJkn6RpUIqJbaM18nG-1095" parent="T4RJkn6RpUIqJbaM18nG-1094" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" value="" vertex="1">
           <mxGeometry height="30" width="265" y="30" as="geometry" />
@@ -4030,6 +4030,24 @@
             </Array>
             <mxPoint x="3270" y="2900" as="sourcePoint" />
             <mxPoint x="2760" y="4050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4RJkn6RpUIqJbaM18nG-1104" edge="1" parent="1" source="T4RJkn6RpUIqJbaM18nG-1095" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" target="T4RJkn6RpUIqJbaM18nG-1048" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="2025" y="3020" as="sourcePoint" />
+            <mxPoint x="2090" y="3110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4RJkn6RpUIqJbaM18nG-1105" edge="1" parent="1" source="T4RJkn6RpUIqJbaM18nG-1095" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" target="T4RJkn6RpUIqJbaM18nG-1061" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="1910" y="2940" as="sourcePoint" />
+            <mxPoint x="2105" y="2770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T4RJkn6RpUIqJbaM18nG-1106" edge="1" parent="1" source="T4RJkn6RpUIqJbaM18nG-1095" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" target="T4RJkn6RpUIqJbaM18nG-1074" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="2060" y="2900" as="sourcePoint" />
+            <mxPoint x="2255" y="2930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
