@@ -5164,6 +5164,10 @@
         </mxCell>
         <mxCell id="gFcD4rwCOoQKDtH166-g-1" edge="1" parent="1" source="T4RJkn6RpUIqJbaM18nG-493" style="edgeStyle=orthogonalEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" target="T4RJkn6RpUIqJbaM18nG-1191" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <Array as="points">
+              <mxPoint x="2460" y="1765" />
+              <mxPoint x="2460" y="1805" />
+            </Array>
             <mxPoint x="2400" y="1830" as="sourcePoint" />
             <mxPoint x="2630" y="1685" as="targetPoint" />
           </mxGeometry>
